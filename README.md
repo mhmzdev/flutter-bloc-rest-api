@@ -1,16 +1,10 @@
-# bloc_app
+# BloC - REST API implementation
 
-A new Flutter project.
+We will be fetching data from the internet using a REST API of COVID cases for all the countries
+- API URL : https://coronavirus-19-api.herokuapp.com/countries
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📦 Packages required
+  - `dio: ^4.0.4`
+  - `bloc: ^7.1.0`
+  - `flutter_bloc: ^7.2.0`
+  - `equatable: ^2.0.3`
